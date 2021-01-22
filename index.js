@@ -28,6 +28,8 @@ module.exports.alpaca = options => {
             "https://sourcingjournal.com/wp-content/uploads/2020/06/alpacapeta.jpg",
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf-e1d5Aye9QlPOFQB3WbVDcNEPsklsEz-lg&usqp=CAU"]
 
+            return(images[Math.floor(Math.random() * images.length)])
+
     } else if (options == 'fact') {
 
         const facts = ["Alpaca fiber is considered the second strongest natural animal fiber.",
